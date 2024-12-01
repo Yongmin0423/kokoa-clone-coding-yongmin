@@ -1,7 +1,7 @@
 @import "reset.css";
 @import "variable.css";
 /* components */
-@import "/css/components/status-bar.css";
+@import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
