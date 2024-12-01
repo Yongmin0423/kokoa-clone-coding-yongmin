@@ -25,6 +25,7 @@ body {
   height: 200vh;
   background: linear-gradient(to top, #554747, 70%, white);
   font-family: "S-CoreDream-3Light";
+  overflow-y: auto;
 }
 
 .main-screen {
@@ -44,7 +45,8 @@ body {
   }
 }
 
-#index {
+#index,
+#chat {
   height: 100vh;
 }
 
