@@ -1,0 +1,25 @@
+.friends-screen {
+  margin-top: 5px;
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  padding: 20px 0;
+}
+
+.friends-screen__ad-text {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  top: 20px;
+  left: 0;
+  font-weight: 700;
+}
