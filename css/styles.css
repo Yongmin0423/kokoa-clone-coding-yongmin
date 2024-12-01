@@ -5,6 +5,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -21,7 +22,7 @@
   font-style: normal;
 }
 body {
-  height: 230vh;
+  height: 200vh;
   background: linear-gradient(to top, #554747, 70%, white);
   font-family: "S-CoreDream-3Light";
 }

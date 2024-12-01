@@ -1,0 +1,19 @@
+#no-mobile {
+  position: absolute;
+  z-index: 98;
+  height: 200vh;
+  width: 100vw;
+  background-color: var(--main);
+  display: flex;
+  top: 0;
+  justify-content: center;
+  padding-top: 50%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 450px) and (max-width: 650px) {
+  #no-mobile {
+    display: none;
+  }
+}
